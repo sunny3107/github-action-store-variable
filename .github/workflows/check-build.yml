@@ -6,6 +6,7 @@
 
 name: 'GitHub Action build test'
 on:
+  workflow_dispatch:
   pull_request:
   push:
 
